@@ -1,0 +1,277 @@
+[
+    {
+        "Id": "e31373356d03268a672242f31454258ef9aecab6c5b58ba1a6e02e3254968c73",
+        "Created": "2022-01-10T15:02:58.358994858Z",
+        "Path": "/init",
+        "Args": [],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 113749,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2022-01-10T15:02:58.921156311Z",
+            "FinishedAt": "0001-01-01T00:00:00Z"
+        },
+        "Image": "sha256:618102e6ea71ef10a8ae0e2beab077cdcf5c2004d445b8c1cba7860377b71cd7",
+        "ResolvConfPath": "/home/leonard/docker/containers/e31373356d03268a672242f31454258ef9aecab6c5b58ba1a6e02e3254968c73/resolv.conf",
+        "HostnamePath": "/home/leonard/docker/containers/e31373356d03268a672242f31454258ef9aecab6c5b58ba1a6e02e3254968c73/hostname",
+        "HostsPath": "/home/leonard/docker/containers/e31373356d03268a672242f31454258ef9aecab6c5b58ba1a6e02e3254968c73/hosts",
+        "LogPath": "/home/leonard/docker/containers/e31373356d03268a672242f31454258ef9aecab6c5b58ba1a6e02e3254968c73/e31373356d03268a672242f31454258ef9aecab6c5b58ba1a6e02e3254968c73-json.log",
+        "Name": "/ha",
+        "RestartCount": 0,
+        "Driver": "overlay2",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "docker-default",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": [],
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "heig",
+            "PortBindings": {
+                "1936/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "1936"
+                    }
+                ],
+                "80/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "80"
+                    }
+                ],
+                "9999/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "9999"
+                    }
+                ]
+            },
+            "RestartPolicy": {
+                "Name": "",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": [],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "host",
+            "Dns": null,
+            "DnsOptions": null,
+            "DnsSearch": null,
+            "ExtraHosts": null,
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": null,
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "KernelMemory": 0,
+            "KernelMemoryTCP": 0,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": false,
+            "PidsLimit": null,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/asound",
+                "/proc/acpi",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/sys/firmware"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/home/leonard/docker/overlay2/4b4bce777218c1cf61bd99d75128101921b49b32777e91e5b190dbb97dfd9053-init/diff:/home/leonard/docker/overlay2/ec6779f3b2040da36c69fa9fb9ae8f460bf3bfefceb80c9f5eacc6c067dcfae5/diff:/home/leonard/docker/overlay2/c0ea2f96460b359f5c069cdeeacc591a6c12c2c49a2839d4e3ed492425515393/diff:/home/leonard/docker/overlay2/a7962d0ec3fdaec533da657339e36ce0b0c52766a75849f4232eb85733003859/diff:/home/leonard/docker/overlay2/d5c2712fd9805823bc49afa857abdeb0df07f6364a75cdea18e12c0cf7c3a1e9/diff:/home/leonard/docker/overlay2/767538cef6c772abf485094f51895f200248517654df383481f1f70272903e8f/diff:/home/leonard/docker/overlay2/4f9506400e7d38f0527be25eac220eef02d87f75f83dfba6db881fa7a243f8d6/diff:/home/leonard/docker/overlay2/44012293e536c8ffd75631a70e6a254c3046ea2ab055a08df1a722680312187f/diff:/home/leonard/docker/overlay2/f9727290c47636369281586c5a06bef0707e9b2b24366063f9796156e67ba52a/diff:/home/leonard/docker/overlay2/c5b4ecb440e927a5347d24af59e911b2503e9daafb617f162e134c1d66259433/diff:/home/leonard/docker/overlay2/868d22f6c00ac8c42f2d06596b4959aa4b2764b649c5618f7b857fbd2a2329fd/diff:/home/leonard/docker/overlay2/7ff9c05ffb0498f6ce926bf75c6037c4340105239af0b95e57b324523ed5ae4c/diff:/home/leonard/docker/overlay2/5837f5a1ff0b879bada5b0261b7f0c3452275d433053a85b8aa5f43c39969738/diff:/home/leonard/docker/overlay2/93e66081b115a66bd7015c0251248ef13f191d85acfe99568fa01f16c1520e34/diff:/home/leonard/docker/overlay2/3924a2761bcedd46ac683b0433e47300e3b60890394985ba8d00959a4dbe93e5/diff:/home/leonard/docker/overlay2/b489d08b374362d6a143658a3e0745e088a31a0e56a647258fd3923dcf1c54bc/diff:/home/leonard/docker/overlay2/a6838adb99a173653ab65eb17ebf8280aa15fc8628429d1c3f0fcc4d97c2606e/diff:/home/leonard/docker/overlay2/4234992e754e80291c65071d22db09f6674dd97a22d9a94d77785c5d7d966597/diff:/home/leonard/docker/overlay2/81ce18bf6af37b43cb324874bf6a9d94c22e0bd9ef8ef232978a3dfe5a800294/diff:/home/leonard/docker/overlay2/7a0d6007066974ed991c20641490477f769ecdc2b1589ceddf48f418ed9853ce/diff:/home/leonard/docker/overlay2/3d3837f5e737999851146b76574bd21e6671edb7d073508c10143f733a88f03b/diff:/home/leonard/docker/overlay2/142a51eea1fe7e922dad9143649b4f8f06ffd3ea78d718400df9e40c6e7e09eb/diff:/home/leonard/docker/overlay2/e09a21e49f220534ec2c5d715fbbc326e6d68cf72eb8e09d2d0c38eeb8441a8f/diff:/home/leonard/docker/overlay2/23b0d123e17e6a52d9a99856abf427f4e570019c3611c8252dea1991cbb3336c/diff",
+                "MergedDir": "/home/leonard/docker/overlay2/4b4bce777218c1cf61bd99d75128101921b49b32777e91e5b190dbb97dfd9053/merged",
+                "UpperDir": "/home/leonard/docker/overlay2/4b4bce777218c1cf61bd99d75128101921b49b32777e91e5b190dbb97dfd9053/diff",
+                "WorkDir": "/home/leonard/docker/overlay2/4b4bce777218c1cf61bd99d75128101921b49b32777e91e5b190dbb97dfd9053/work"
+            },
+            "Name": "overlay2"
+        },
+        "Mounts": [],
+        "Config": {
+            "Hostname": "e31373356d03",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "1936/tcp": {},
+                "7373/tcp": {},
+                "7946/tcp": {},
+                "80/tcp": {},
+                "9999/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "WEBAPP_1_IP=192.168.42.11",
+                "WEBAPP_2_IP=192.168.42.22",
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "HAPROXY_VERSION=2.2.18",
+                "HAPROXY_URL=https://www.haproxy.org/download/2.2/src/haproxy-2.2.18.tar.gz",
+                "HAPROXY_SHA256=a04a179d82711cac2199c4615621aaa9598c4788de2b34dccb9dd44da2862c50",
+                "ROLE=balancer"
+            ],
+            "Cmd": null,
+            "Image": "teaching-heigvd-ait-2020-labo-docker_haproxy",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": [
+                "/init"
+            ],
+            "OnBuild": null,
+            "Labels": {
+                "Leonard": "Besseau  <leonard.besseau@heig-vd.ch>",
+                "com.docker.compose.config-hash": "d73cc39c2fcb612632536aa05e7fb23b9d209bb6805bc986a240a15acc3fb196",
+                "com.docker.compose.container-number": "1",
+                "com.docker.compose.oneoff": "False",
+                "com.docker.compose.project": "teaching-heigvd-ait-2020-labo-docker",
+                "com.docker.compose.project.config_files": "docker-compose.yml",
+                "com.docker.compose.project.working_dir": "/home/leonard/Documents/BA5/AIT/Labo/Teaching-HEIGVD-AIT-2020-Labo-Docker",
+                "com.docker.compose.service": "haproxy",
+                "com.docker.compose.version": "1.28.5"
+            },
+            "StopSignal": "SIGUSR1"
+        },
+        "NetworkSettings": {
+            "Bridge": "",
+            "SandboxID": "8baf9f80fc8db5b883c35197ec716b407a7049813442bb4d49e3b4114a96c796",
+            "HairpinMode": false,
+            "LinkLocalIPv6Address": "",
+            "LinkLocalIPv6PrefixLen": 0,
+            "Ports": {
+                "1936/tcp": [
+                    {
+                        "HostIp": "0.0.0.0",
+                        "HostPort": "1936"
+                    },
+                    {
+                        "HostIp": "::",
+                        "HostPort": "1936"
+                    }
+                ],
+                "7373/tcp": null,
+                "7946/tcp": null,
+                "80/tcp": [
+                    {
+                        "HostIp": "0.0.0.0",
+                        "HostPort": "80"
+                    },
+                    {
+                        "HostIp": "::",
+                        "HostPort": "80"
+                    }
+                ],
+                "9999/tcp": [
+                    {
+                        "HostIp": "0.0.0.0",
+                        "HostPort": "9999"
+                    },
+                    {
+                        "HostIp": "::",
+                        "HostPort": "9999"
+                    }
+                ]
+            },
+            "SandboxKey": "/var/run/docker/netns/8baf9f80fc8d",
+            "SecondaryIPAddresses": null,
+            "SecondaryIPv6Addresses": null,
+            "EndpointID": "",
+            "Gateway": "",
+            "GlobalIPv6Address": "",
+            "GlobalIPv6PrefixLen": 0,
+            "IPAddress": "",
+            "IPPrefixLen": 0,
+            "IPv6Gateway": "",
+            "MacAddress": "",
+            "Networks": {
+                "heig": {
+                    "IPAMConfig": {
+                        "IPv4Address": "192.168.42.42"
+                    },
+                    "Links": null,
+                    "Aliases": [
+                        "e31373356d03",
+                        "haproxy"
+                    ],
+                    "NetworkID": "56fc88d3f26b359fd5d098e50e8e07c964a925679ef8e4731f81011a8fc41c66",
+                    "EndpointID": "c73e47042f0f55029b59e24e458b9f994b574462b8774a38be1f8131202579e5",
+                    "Gateway": "192.168.42.1",
+                    "IPAddress": "192.168.42.42",
+                    "IPPrefixLen": 24,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "MacAddress": "02:42:c0:a8:2a:2a",
+                    "DriverOpts": null
+                }
+            }
+        }
+    }
+]
